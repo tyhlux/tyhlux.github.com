@@ -1,0 +1,13 @@
+RewriteEngine On
+RewriteRule ^home$ index.html [L]
+RewriteRule ^donate$ donate.html [L]
+RewriteRule ^outdated$ outdated.html [L]
+RewriteRule ^store$ store.html [L]
+RewriteRule ^fivem$ fivem.html [L]
+RewriteRule ^crabgame$ crabgame.html [L]
+RewriteRule ^novafn$ novafn.html [L]
+RewriteRule ^spoofer$ spoofer.html [L]
+RewriteRule ^windows$ windows.html [L]
+RewriteRule ^spotify$ spotify.html [L]
+RewriteRule ^rust$ rust.html [L]
+RewriteRule ^status$ status.html [L]
