@@ -1,5 +1,6 @@
 RewriteEngine On
 RewriteRule ^home$ index.html [L]
+RewriteRule ^discord$ discord.html [L]
 RewriteRule ^donate$ donate.html [L]
 RewriteRule ^outdated$ outdated.html [L]
 RewriteRule ^store$ store.html [L]
