@@ -1,9 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Login</title>
+    <html lang="pt-br">
+    <meta charset="UTF-8">
+    <meta property="og:title" content="TD Cheats™ | Premium External 1">
+    <meta property="og:description" content="TD Cheats: Premium External 1 & Cleaner Download Page.">
+    <meta property="og:image" content="https://media.discordapp.net/attachments/940444901710127115/1180765440042094664/Untitled-1.png">
+    <meta property="og:url" content="https://tdcheats.com/premium">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image" href="https://cdn.discordapp.com/attachments/1191402001683193977/1192936007851593839/Untitled-1.png">
+    <title>TD Cheats™ | PE1</title>
 <style>
     body {
         font-family: Arial, sans-serif;
@@ -25,6 +32,7 @@
     }
     h2 {
         margin-top: 0;
+        margin-bottom: 10px; /* Added margin for spacing */
     }
     input[type="password"] {
         width: 100%;
@@ -42,11 +50,12 @@
         background-color: #007bff;
         border: none;
         color: #fff;
-        padding: 10px 20px;
+        padding: 8px 16px; /* Reduced padding for slightly smaller buttons */
         border-radius: 5px;
         cursor: pointer;
-        font-size: 16px;
+        font-size: 14px; /* Reduced font size for slightly smaller buttons */
         transition: background-color 0.3s;
+        margin-bottom: 10px; /* Added margin for spacing */
     }
     input[type="submit"]:hover,
     .button:hover {
@@ -99,8 +108,9 @@
         <!-- Placeholder for your logo -->
         <img src="https://cdn.discordapp.com/attachments/1191402001683193977/1192936007851593839/Untitled-1.png" alt="Logo" width="150">
     </div>
-    <h2>Loader Download</h2>
-    <button class="button" onclick="download()">DOWNLOAD</button>
+    <h2>Loader & Cleaner</h2>
+    <button class="button" onclick="downloadLoader()">DOWNLOAD LOADER</button>
+    <button class="button" onclick="downloadCleaner()">DOWNLOAD CLEANER</button>
 </div>
 
 <div class="alert" id="customAlert">Custom alert box</div>
@@ -129,9 +139,14 @@
         }
     }
 
-    function download() {
-        // Replace "YOUR_DOWNLOAD_LINK" with your desired download link
-        window.location.href = "https://cdn.discordapp.com/attachments/1191402001683193977/1206903948431069234/chrome.rar?ex=65ddb3e4&is=65cb3ee4&hm=02f6c3e5fe7b0a00f9a0bd8c9f23a95eedfb705d7f1701d9014afd58d9837d22&";
+    function downloadLoader() {
+        // Replace "YOUR_LOADER_DOWNLOAD_LINK" with your desired loader download link
+        window.location.href = "https://cdn.discordapp.com/attachments/1191402001683193977/1208288423237128222/steam.rar?ex=65e2bd49&is=65d04849&hm=0fe1af1608ca6ebc19bf8507b50cccbcdea4b7f63058a4cb0e7a0f8c026c7807&";
+    }
+
+    function downloadCleaner() {
+        // Updated cleaner download link
+        window.location.href = "https://cdn.discordapp.com/attachments/1191402001683193977/1208278705567178773/TDCleaner.rar?ex=65e2b43c&is=65d03f3c&hm=2ef0bba8365fe32bb570b783a9c3167838a386b93d74f6e5e8140eef9be45924&";
     }
 
     function showAlert(message) {
