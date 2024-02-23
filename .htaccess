@@ -1,7 +1,5 @@
 RewriteEngine On
 RewriteRule ^admin$ admin_panel.html [L]
-RewriteRule ^premium$ premium.html [L]
-RewriteRule ^premium2$ premium2.html [L]
 RewriteRule ^discord$ discord.html [L]
 RewriteRule ^donate$ donate.html [L]
 RewriteRule ^outdated$ outdated.html [L]
