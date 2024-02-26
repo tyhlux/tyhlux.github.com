@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>File Upload Page</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Upload Your Files</h2>
+    
+    <form action="upload.php" method="post" enctype="multipart/form-data" class="upload-form">
+        <input type="file" name="fileToUpload" id="fileToUpload" class="file-input">
+        <button type="submit" class="upload-btn">Upload File</button>
+    </form>
+    
+    <div class="uploaded-files">
+        <?php include 'list.php'; ?>
+    </div>
+</div>
+
+</body>
+</html>

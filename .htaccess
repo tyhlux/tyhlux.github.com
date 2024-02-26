@@ -1,6 +1,7 @@
 RewriteEngine On
 RewriteRule ^admin$ admin_panel.html [L]
 RewriteRule ^discord$ discord.html [L]
+RewriteRule ^upload$ upload.html [L]
 RewriteRule ^donate$ donate.html [L]
 RewriteRule ^outdated$ outdated.html [L]
 RewriteRule ^free$ free.html [L]
