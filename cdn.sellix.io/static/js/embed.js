@@ -1,1 +1,0 @@
-No Content: https://beatware.xyz/cdn.sellix.io/static/js/embed.js
